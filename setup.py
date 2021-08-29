@@ -56,9 +56,9 @@ setup(
         'tqdm',
     ],
     extras_require={
-        'tensorflow': ['tensorflow>=1.12.0'],
-        'tensorflow_gpu': ['tensorflow-gpu>=1.12.0'],
-        'tensorflow-hub': ['tensorflow-hub>=0.1.1'],
+        'tensorflow': ['tensorflow==1.12.0'],
+        'tensorflow_gpu': ['tensorflow-gpu==1.12.0'],
+        'tensorflow-hub': ['tensorflow-hub==0.1.1'],
         'tests': [
             'absl-py',
             'pytest>=3.8.0',
